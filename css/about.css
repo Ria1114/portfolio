@@ -1,0 +1,418 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/Agustina.otf') ;
+  
+  }
+  @font-face {
+    font-family: 'font2';
+    src: url('/fonts/Agustina-1.otf');
+  }
+  @font-face {
+    font-family: 'font3';
+    src: url('/fonts/Belguri.otf');
+  }
+  @font-face {
+    font-family: 'font4';
+    src: url('/fonts/Bellary.otf');
+  }
+  @font-face {
+    font-family: 'font5';
+    src: url('/fonts/Dellamor.otf');
+  }
+  @font-face {
+    font-family: 'font6';
+    src: url('/fonts/Dolphina.otf');
+  }
+  @font-face {
+    font-family: 'font7';
+    src: url('/fonts/HoperBegin.otf');
+  }
+  @font-face {
+    font-family: 'font8';
+    src: url('/fonts/EladornaGladiota-KVVKy.otf');
+  }
+  @font-face {
+    font-family: 'font9';
+    src: url('/fonts/Festigan.otf');
+  }
+  @font-face {
+    font-family: 'font10';
+    src: url('/fonts/Hanstelly-OGG1e.otf');
+  }
+  @font-face {
+    font-family: 'font11';
+    src: url('/fonts/Raistine-Wpp4G.otf');
+  }
+  @font-face {
+    font-family: 'font12';
+    src: url('/fonts/YanhirAmolesthic-BLL18.otf');
+  }
+  @font-face {
+    font-family: 'font13';
+    src: url('/fonts/Sun\ Beautiful.otf');
+  }
+  @font-face {
+    font-family: 'font14';
+    src: url('/fonts/Agustina-Signature.otf');
+  }
+  @font-face {
+    font-family: 'font15';
+    src: url('/fonts/BrettleySignatureRegular-RpEMo.ttf');
+  }
+  @font-face {
+    font-family: 'font16';
+    src: url('/fonts/Weddingday.ttf');
+  }
+  @font-face {
+    font-family: 'font17';
+    src: url('/fonts/DancingScript-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'font18';
+    src: url('/fonts/DancingScript-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'font19';
+    src: url('/fonts/LightStories-q229r.otf');
+  }
+  @font-face {
+    font-family: 'font20';
+    src: url('/fonts/Kastria-LVVz4.otf');
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:  sans-serif;
+}
+
+           
+  header{
+ 
+    font-family: 'font15';
+    background-size: contain;
+    width: 100%;
+    margin: auto;
+    padding: 100px;
+    padding-top: 170px;
+    padding-bottom: 220px;
+}
+
+header .head{
+        font-size: 2.2rem;
+        background-color: #ffffff;
+        color: rgb(5, 5, 5);
+        -webkit-transform: rotate(-6deg);
+        border-radius: 10px;
+        box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(148, 147, 147, 0.847), 0 0 18px 0  rgb(139, 139, 139);
+        width: 60%;
+        margin: auto;
+        /* margin-top: 100px; */
+  }
+
+  header .head .rightH{
+          color: red;
+          width: 100%;
+          padding: 50px;
+          font-size: 1.2rem;
+          color: rgb(0, 0, 0);
+          line-height: 30px;
+          font-weight: 600;
+    
+  }
+
+  header .head .rightH p{
+          font-size: 1.5rem;
+          color: rgb(9, 9, 9);
+          font-family: "font17", cursive;
+          word-spacing: 7px;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+          margin-top: 30px;
+  }
+  header .head .rightH h1{
+      
+          font-size: 2.9rem;
+          font-family: "font3", cursive;
+          /* font-family: "Caveat", cursive; */
+          word-spacing: 3px;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          font-style: normal;
+  }
+  header .head .rightH aside{
+      
+          font-size: 2rem;
+           font-family: "font17", cursive;
+           padding-top: 20px;
+           padding-bottom: 40px;
+  }
+  header .head .rightH h1 span{
+      font-size:2.5rem;
+      font-family: "Caveat", cursive;
+        font-family: "font3", cursive;
+  }
+  header .head .rightH h6{
+      font-size: 1.7rem;
+      font-family: "font17", cursive;
+  }
+  header .head .rightH h6 span{
+      color: rgb(89, 89, 89);
+      font-size: 1.8rem;
+        font-family: "Caveat", cursive;
+      /* font-family: "font3", cursive; */
+  }
+
+
+  header .head .rightH button{
+          background-color: #ffffff;
+          box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(148, 147, 147, 0.847), 0 0 8px 0  rgb(179, 178, 178);
+          color: #000;
+          font-style: normal;
+          font-optical-sizing: auto;
+          font-weight: 500;
+          border: 0;
+          font-size: 2.3rem;
+          font-family: "font3", cursive;
+          margin-right: 22px;
+          /* padding: 10px 20px 10px 20px; */
+         margin-top: 20px;
+        } 
+        header .head .rightH button code{
+          color: rgb(148, 148, 148);
+        }
+        
+        /* ---------     Media Query for Laptops and Desktops  --------------------- */
+@media (min-width: 1000px) and (max-width: 1800px){
+  header {
+      padding: 190px 0 200px 0;
+  }
+   header .head{
+    width: 60%;
+   }
+   header .head .rightH .resume{
+    /* padding-bottom: 30px; */
+  }
+    
+}
+
+    
+@media (min-width: 421px) and (max-width: 1600px){
+  header {
+     padding: 170px 0 170px 0;
+  }
+  header .head{
+      width: 70%;
+   }
+  header .head .rightH{
+      padding: 60px 35px 60px 35px;
+      
+  }
+  header .head{
+    font-size: 2.2rem;
+    -webkit-transform: rotate(-4deg);
+    width: 67%;
+ }
+ 
+header .head .rightH{
+  padding: 30px;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  line-height: 30px;
+
+}
+header .head .rightH aside{
+    
+ font-size: 1.7rem;
+ font-family: "font17", cursive;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+header .head .rightH h1{
+    
+font-size: 2.3rem;
+}
+header .head .rightH .resume{
+ padding-top: 30px;
+}
+header .head .rightH p{
+font-size: 1.2rem;
+word-spacing: 7px;
+margin-top: 10px;
+}
+header .head .rightH button{
+border: 0;
+font-size: 1.6rem;
+font-family: "font3", cursive;
+margin-right: 16px;
+/* padding: 10px 20px 10px 20px; */
+margin-top: 10px;
+} 
+header .head .rightH button.hire{
+  width: 95%;
+ margin: auto;
+ margin-bottom: 30px;
+
+}
+}
+@media (min-width: 0px) and (max-width: 750px){
+header {
+  padding: 90px 0 30px 0;
+}
+
+}
+
+@media (min-width: 800px) and (max-width: 999px){
+header {
+      padding: 110px 0 110px 0;
+  }
+header .head{
+    width: 82%;
+   }
+ header .head .rightH .resume{
+   padding-top: 30px;
+ }
+ header .head .rightH button.hire{
+    width: 95%;
+   margin: auto;
+   margin-bottom: 30px;
+   font-size: 1.3rem;
+   margin-right: 3px;
+   margin-left: 5px;
+
+ }
+}
+
+
+
+@media (min-width: 551px) and (max-width: 799px){
+header {
+      padding: 90px 0 90px 0;
+  }
+header .head{
+  font-size: 2.2rem;
+  -webkit-transform: rotate(-2deg);
+    width: 77%;
+   }
+   
+  header .head .rightH{
+    padding: 30px;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+
+}
+header .head .rightH aside{
+      
+  font-size: 1.7rem;
+   font-family: "font17", cursive;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+header .head .rightH h1{
+      
+  font-size: 2.3rem;
+}
+ header .head .rightH .resume{
+   padding-top: 30px;
+ }
+ header .head .rightH p{
+  font-size: 1.2rem;
+  word-spacing: 7px;
+  margin-top: 10px;
+}
+ header .head .rightH button{
+  border: 0;
+  font-size: 1.6rem;
+  font-family: "font3", cursive;
+  margin-right: 16px;
+  /* padding: 10px 20px 10px 20px; */
+ margin-top: 10px;
+} 
+ header .head .rightH button.hire{
+    width: 95%;
+   margin: auto;
+   margin-bottom: 30px;
+
+ }
+}
+@media (min-width: 0px) and (max-width: 750px){
+  header {
+    padding: 90px 0 30px 0;
+}
+
+}
+
+@media (min-width:0px) and (max-width: 500px){
+header {
+      padding: 40px 0 30px 0;
+  }
+header .head{
+   -webkit-transform: none;
+   box-shadow: none;
+    width: 95%;
+ }
+ header .head .rightH{
+    padding:0 13px 10px 18px;
+  
+  }
+ header .head .rightH .resume{
+   padding-top: 30px;
+ }
+ header .head .rightH button.hire{
+    width: 95%;
+   margin: auto;
+   margin-bottom: 30px;
+
+ }
+}
+
+@media (min-width: 100px) and (max-width: 420px){
+  header {
+      padding:30px 0 30px 0;
+  }
+  header .head{
+    -webkit-transform: none;
+    width: 100%;
+    box-shadow: none;
+  }
+  header .head .rightH{
+    padding:10px 13px 10px 18px;
+  
+  }
+  header .head .rightH .resume{
+    padding-top: 30px;
+  }
+  header .head .rightH button.hire{
+     width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    margin-right: 3px;
+    margin-left: 5px;
+
+  }
+  section .white div.row div.col .remove .card .card-body .btn1{
+    display: flex;
+    width: 90px;
+    padding: 3px;
+    gap: 10px;
+  
+  }
+  header .head .rightH button{
+    color: #000;
+    font-style: normal;
+    border: 0;
+    font-size: 1.3rem;
+    margin-right: 22px;
+   margin-top: 20px;
+  }  
+   header .head .rightH h6{
+    font-size: 1.3rem;
+    font-family: "font17", cursive;
+}
+}

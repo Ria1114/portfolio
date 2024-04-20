@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/Agustina.otf') format('opentype');
+  
+  }
+  @font-face {
+    font-family: 'font2';
+    src: url('/fonts/Agustina-1.otf');
+  }
+  @font-face {
+    font-family: 'font3';
+    src: url('/fonts/Belguri.otf');
+  }
+  @font-face {
+    font-family: 'font4';
+    src: url('/fonts/Bellary.otf');
+  }
+  @font-face {
+    font-family: 'font5';
+    src: url('/fonts/Dellamor.otf');
+  }
+  @font-face {
+    font-family: 'font6';
+    src: url('/fonts/Dolphina.otf');
+  }
+  @font-face {
+    font-family: 'font7';
+    src: url('/fonts/HoperBegin.otf');
+  }
+  @font-face {
+    font-family: 'font8';
+    src: url('/fonts/EladornaGladiota-KVVKy.otf');
+  }
+  @font-face {
+    font-family: 'font9';
+    src: url('/fonts/Festigan.otf');
+  }
+  @font-face {
+    font-family: 'font10';
+    src: url('/fonts/Hanstelly-OGG1e.otf');
+  }
+  @font-face {
+    font-family: 'font11';
+    src: url('/fonts/Raistine-Wpp4G.otf');
+  }
+  @font-face {
+    font-family: 'font12';
+    src: url('/fonts/YanhirAmolesthic-BLL18.otf');
+  }
+  @font-face {
+    font-family: 'font13';
+    src: url('/fonts/Sun\ Beautiful.otf');
+  }
+  @font-face {
+    font-family: 'font14';
+    src: url('/fonts/Agustina-Signature.otf');
+  }
+  @font-face {
+    font-family: 'font15';
+    src: url('/fonts/BrettleySignatureRegular-RpEMo.ttf');
+  }
+  @font-face {
+    font-family: 'font16';
+    src: url('/fonts/Weddingday.ttf');
+  }
+  @font-face {
+    font-family: 'font17';
+    src: url('/fonts/DancingScript-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'font18';
+    src: url('/fonts/DancingScript-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'font19';
+    src: url('/fonts/LightStories-q229r.otf');
+  }
+  @font-face {
+    font-family: 'font20';
+    src: url('/fonts/Kastria-LVVz4.otf');
+  }
+           
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+body{
+    font-family:  sans-serif;
+}
+
+
+/* con-------- */
+
+main{
+    width: 100%;
+    color: #000;
+   
+    padding-top: 60px;
+    padding-bottom: 220px;
+}
+
+main h1{
+   
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding: 60px;
+     text-align: center;
+     box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+     font-size: 2.8rem;
+     font-family: 'font17', sans-serif;
+     font-weight: 500;
+     -webkit-transform: rotate(-4deg);
+     margin-bottom: 40px;
+   
+}
+main h1 code{
+    color: rgb(142, 142, 142);
+}
+main .skills {
+    width: 63%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    -webkit-transform: rotate(-4deg);
+    outline: double;
+    outline-offset: 2px;
+    border-radius: 20px;
+}
+main .skills .tech{
+   
+    padding: 20px;
+    margin: auto;
+    box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+     border-radius: 15px;
+
+}
+main .skills .tech h2{
+  font-family: 'font3', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+   
+    
+}
+main .skills .tech p{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "Caveat", cursive;
+    word-spacing: 3px;
+    color: rgb(138, 138, 138);
+    
+}
+
+main .skills .tech .logo {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 15px;
+   font-size: 1rem;
+  justify-content: center;
+    
+}
+main .skills .tech .logo .inner{
+    display: flex;
+   flex-direction: column;
+   margin: 20px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 7px;
+   box-shadow:  0 0 4px 0  rgba(181, 181, 181, 0.148),   0 0 4px 0  rgba(181, 181, 181, 0.474),  0 0 4px 0  rgba(181, 181, 181, 0.847), 0 0 4px 0  rgb(203, 202, 202);
+
+}
+
+main .skills .tech .logo img{
+   width: 60px;
+   height: 60px;
+   margin-top: 15px;
+   margin-left: 8px;
+   margin-right: 8px;
+   /* border: 1px solid #000; */
+   border-radius: 50%;
+   
+    
+}
+main .skills .tech .logo p{
+  font-size: 1rem;
+    margin-top: 2px;
+    text-align: center;
+    
+}
+
+/*   --------------------------------------------   */
+@media (min-width: 160px) and (max-width: 1800px){
+      
+      main{
+        padding-top: 60px;
+        padding-bottom: 220px;
+      }
+
+      main h1{
+      
+        padding: 50px;
+        font-size: 2.6rem;
+        margin-bottom: 35px;
+      
+      }
+     
+     
+    
+}
+@media (min-width: 140px) and (max-width: 1599px){
+      
+      main{
+        padding-top: 50px;
+        padding-bottom: 185px;
+      }
+
+      main h1{
+      
+        padding: 45px;
+        font-size: 2.2rem;
+        margin-bottom: 32px;
+      
+      }
+      main h1 code{
+        font-size: 2rem;
+      }
+ 
+
+    
+}
+@media (min-width: 100px) and (max-width: 139px){
+      
+      main{
+        padding-top: 40px;
+        padding-bottom: 170px;
+      }
+
+      main h1{
+      
+        padding: 45px;
+        font-size: 2.2rem;
+        margin-bottom: 32px;
+      
+      }
+      main h1 code{
+        font-size: 2rem;
+      }
+    
+    
+}
+@media (min-width: 100px) and (max-width: 119px){
+      
+      main{
+        padding-top: 40px;
+        padding-bottom: 170px;
+      }
+
+      main h1{
+      
+        padding: 45px;
+        font-size: 2.2rem;
+        margin-bottom: 32px;
+      
+      }
+      main h1 code{
+        font-size: 2rem;
+      }
+     
+    
+}
+
+       
+@media (min-width: 751px) and (max-width: 999px){
+      
+      main{
+        padding-top: 40px;
+        padding-bottom: 170px;
+      }
+
+      main h1{
+      
+        padding: 45px;
+        font-size: 2.2rem;
+        margin-bottom: 32px;
+      
+      }
+      main h1 code{
+        font-size: 2rem;
+      }
+      main .skills {
+        width: 63%;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 15px;
+      }
+      main .skills .tech{
+      
+        padding: 10px;
+        margin: auto;
+        border-radius: 15px;
+      }
+      main .skills .tech h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+      
+        
+      }
+      main .skills .tech p{
+        font-size: 1.4rem;
+        word-spacing: 3px;
+        
+      }
+
+      main .skills .tech .logo {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        font-size: 1rem;
+        
+      }
+      main .skills .tech .logo .inner{
+        margin: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 7px;
+
+      }
+
+      main .skills .tech .logo img{
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 50%;
+        
+      }
+      main .skills .tech .logo p{
+        font-size: 0.9rem;
+        margin-top: 8px;
+        margin-bottom: 4px;
+        
+      }
+
+    
+}
+
+       
+       
+@media (min-width: 51px) and (max-width: 750px){
+      
+      main{
+        padding-top: 40px;
+        padding-bottom: 10px;
+      }
+
+      main h1{
+      
+        padding: 35px;
+        font-size: 1.5rem;
+        margin-bottom: 32px;
+        box-shadow: none;
+      
+      }
+      main h1 code{
+        font-size: 1rem;
+      }
+      main .skills {
+        width: 70%;
+        margin: auto;
+        -webkit-transform: rotate(-2deg);
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+      }
+      main .skills .tech{
+      
+        padding: 10px;
+        margin: auto;
+        border-radius: 15px;
+      }
+      main .skills .tech h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+      
+        
+      }
+      main .skills .tech p{
+        font-size: 1.4rem;
+        word-spacing: 3px;
+        
+      }
+
+      main .skills .tech .logo {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        font-size: 1rem;
+        
+      }
+      main .skills .tech .logo .inner{
+        margin: 10px;
+        padding-left: 10px;
+        padding-right:10px;
+        border-radius: 4px;
+
+      }
+
+      main .skills .tech .logo img{
+        width: 40px;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 50%;
+        
+      }
+      main .skills .tech .logo p{
+        font-size: 0.9rem;
+        margin-top: 8px;
+        margin-bottom: 4px;
+        
+      }
+
+    
+}
+
+       
+       
+       
+@media (min-width: 300px) and (max-width: 550px){
+      
+      main{
+        padding-top: 50px;
+        padding-bottom: 110px;
+      }
+
+      main h1{
+        -webkit-transform: none;
+        padding: 45px;
+        font-size: 2.2rem;
+        margin-bottom: 32px;
+      
+      }
+      main h1 code{
+        font-size: 2rem;
+      }
+      main .skills {
+        width: 93%;
+        margin: auto;
+        padding: 20px;
+        border: none;
+        -webkit-transform: none;
+        border-radius: 15px;
+      }
+      main .skills .tech{
+      
+        padding: 10px;
+        margin: auto;
+        border-radius: 15px;
+        /* box-shadow:none; */
+      }
+      main .skills .tech h2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+      
+        
+      }
+      main .skills .tech p{
+        font-size: 1.4rem;
+        word-spacing: 3px;
+        
+      }
+
+      main .skills .tech .logo {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        font-size: 1rem;
+        
+      }
+      main .skills .tech .logo .inner{
+        margin: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 4px;
+        box-shadow: none;
+
+      }
+
+      main .skills .tech .logo img{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 4px;
+        margin-right: 4px;
+        border-radius: 50%;
+        
+      }
+      main .skills .tech .logo p{
+        font-size: 0.9rem;
+        margin-top: 8px;
+        margin-bottom: 4px;
+        
+      }
+
+    
+}
+
+       

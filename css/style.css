@@ -1,0 +1,526 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/Agustina.otf') format('opentype');
+  
+}
+@font-face {
+    font-family: 'font2';
+    src: url('fonts/Agustina-1.otf');
+}
+@font-face {
+    font-family: 'font3';
+    src: url('fonts/Belguri.otf');
+}
+@font-face {
+    font-family: 'font4';
+    src: url('fonts/Bellary.otf');
+}
+@font-face {
+    font-family: 'font5';
+    src: url('fonts/Dellamor.otf');
+}
+@font-face {
+    font-family: 'font6';
+    src: url('fonts/Dolphina.otf');
+}
+@font-face {
+    font-family: 'font7';
+    src: url('fonts/HoperBegin.otf');
+}
+@font-face {
+    font-family: 'font8';
+    src: url('fonts/EladornaGladiota-KVVKy.otf');
+}
+@font-face {
+    font-family: 'font9';
+    src: url('fonts/Festigan.otf');
+}
+@font-face {
+    font-family: 'font10';
+    src: url('fonts/Hanstelly-OGG1e.otf');
+}
+@font-face {
+    font-family: 'font11';
+    src: url('fonts/Raistine-Wpp4G.otf');
+}
+@font-face {
+    font-family: 'font12';
+    src: url('fonts/YanhirAmolesthic-BLL18.otf');
+}
+@font-face {
+    font-family: 'font13';
+    src: url('fonts/Sun\ Beautiful.otf');
+}
+@font-face {
+    font-family: 'font14';
+    src: url('fonts/Agustina-Signature.otf');
+}
+@font-face {
+    font-family: 'font15';
+    src: url('fonts/BrettleySignatureRegular-RpEMo.ttf');
+}
+@font-face {
+    font-family: 'font16';
+    src: url('fonts/Weddingday.ttf');
+}
+@font-face {
+    font-family: 'font17';
+    src: url('fonts/DancingScript-Bold.ttf');
+}
+@font-face {
+    font-family: 'font18';
+    src: url('fonts/DancingScript-Regular.ttf');
+}
+@font-face {
+    font-family: 'font19';
+    src: url('fonts/LightStories-q229r.otf');
+}
+@font-face {
+    font-family: 'font20';
+    src: url('fonts/Kastria-LVVz4.otf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    
+
+body{
+    font-family:  sans-serif;
+}
+
+
+nav{
+
+background-color: rgb(255, 255, 255);
+min-height: 130px;
+box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+}
+ nav a.navbar-brand {
+    box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+    font-size: 2.2rem;
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: 500;
+    -webkit-transform: rotate(-4deg);
+}
+
+
+
+nav a.nav-link {
+    font-size: 2.2rem;
+    font-family: 'font3', sans-serif;
+    font-weight: 500;
+    color: #000;
+    box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+    margin-left: 30px;
+
+    -webkit-transform: rotate(-5deg);
+
+}
+nav a.navbar-brand code {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(170, 170, 170);
+
+}
+  /* Media Query for Laptops and Desktops */
+@media (min-width: 1200px) and (max-width: 1600px){
+
+nav{
+    min-height: 105px;
+}
+    nav a.navbar-brand {
+
+    font-size: 1.8rem;
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: 500;
+
+}
+
+nav a.nav-link {
+    font-size: 1.7rem;
+    font-family: 'font3', sans-serif;
+    font-weight: 500;
+    color: #000;
+    margin-left: 30px;
+    padding: 10px;
+    margin: 10px;
+
+}
+nav a.navbar-brand code {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(170, 170, 170);
+
+}
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px){
+
+nav{
+min-height: 85px;
+}
+nav a.navbar-brand {
+
+font-size: 1.5rem;
+font-family: 'MyCustomFont', sans-serif;
+font-weight: 500;
+margin: 0;
+padding: 0;
+
+}
+
+nav a.nav-link {
+font-size: 1.2rem;
+margin-left: 10px;
+padding: 5px;
+margin: 10px;
+
+}
+nav a.navbar-brand code {
+    font-size: 1.2rem;
+    font-weight: 200;
+
+}
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 300px) and (max-width: 992px){
+
+nav{
+    min-height: 56px;
+    margin: 0;
+    padding: 0;
+}
+
+    nav a.navbar-brand {
+
+    font-size: 1.5rem;
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    box-shadow:  none;
+    -webkit-transform: none;
+
+}
+
+nav a.nav-link {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 5px;
+    box-shadow:  none; 
+    -webkit-transform: none;
+
+}
+
+nav a.navbar-brand code {
+    font-size: 1.2rem;
+    font-weight: 200;
+
+}
+}
+
+ header{
+        background-image: linear-gradient(to top, rgba(255,0,0,0),rgba(255, 255, 255, 0.21), rgba(255, 255, 255, 0.467),rgba(255, 255, 255, 0.838),rgb(255, 255, 255)) ;
+        font-family: 'font15';
+        background-size: contain;
+        width: 100%;
+        margin: auto;
+        padding: 100px;
+        padding-top: 230px;
+        padding-bottom: 290px;
+}
+
+ header .head{
+        font-size: 2.2rem;
+        background-color: #ffffff;
+        color: rgb(5, 5, 5);
+        -webkit-transform: rotate(-6deg);
+        border-radius: 10px;
+        box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(148, 147, 147, 0.847), 0 0 18px 0  rgb(139, 139, 139);
+        width: 60%;
+        margin: auto;
+}
+
+header .head .rightH{
+        color: red;
+        width: 100%;
+        padding: 60px;
+        font-size: 1.2rem;
+        color: rgb(0, 0, 0);
+        line-height: 30px;
+        font-weight: 600;
+  
+}
+
+ header .head .rightH p{
+        font-size: 1.3rem;
+        font-family: "font17", cursive;
+        /* font-family: "Caveat", cursive; */
+        word-spacing: 3px;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+ }
+header .head .rightH h3,h6{
+    
+        font-size: 1.9rem;
+        font-family: "font11", cursive;
+        /* font-family: "Caveat", cursive; */
+        word-spacing: 3px;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+}
+
+ header .head .rightH button{
+        background-color: #ffffff;
+        box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(148, 147, 147, 0.847), 0 0 8px 0  rgb(139, 139, 139);
+        color: #000;
+        font-style: normal;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        border: 0;
+        font-size: 1.3rem;
+        font-family: "font17", cursive;
+        margin-right: 22px;
+        padding: 10px 20px 10px 20px;
+        margin-top: 20px;
+}
+
+section{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 350px;
+        box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+   
+}
+
+
+section .pro h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+      margin-bottom: 50px;
+        font-family: 'font17', sans-serif;
+        padding: 80px 50px 80px 50px;
+        -webkit-transform: rotate(-5deg);
+        box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+}
+    
+section div.row{
+    display: flex;
+            width: 74%;
+            padding: 70px 40px 70px 40px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid black;
+            border-radius: 15px;
+            -webkit-transform: rotate(-5deg);
+            margin: auto;
+             border: 2px solid black;
+    outline: double;
+    outline-offset: 2px;
+    border-radius: 20px;
+            box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+ }
+section div.row div.col{
+      display: flex;
+      justify-content: space-around;
+      -webkit-transform: rotate(0deg);
+        width: 430px;
+        min-width: 420px;
+        margin: auto;
+        margin-bottom: 30px;
+      
+     
+}
+
+section div div.col .card{
+        padding-bottom: 14px;
+        border-radius: 10px;
+        margin: 0px;
+}
+section div div.col .card .card-body{
+        padding: 24px;
+       
+}
+section div div.col .card img{
+        width: 420px;
+        padding: 20px;
+        border-radius: 26px;
+}
+section div div.col .card button{
+        margin-left: 25px;
+        width: 110px;
+        padding: 10px;
+        margin-bottom: 20px;
+  
+}
+
+footer{
+    width: 100%;
+    color: #000;
+   
+    padding-top: 70px;
+    padding-bottom: 300px;
+}
+footer div{
+    margin: auto;
+  
+}
+footer div form{
+
+    box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+    border: 2px solid black;
+    padding: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    -webkit-transform: rotate(-4deg);
+    border: 2px solid black;
+    outline: double;
+    outline-offset: 2px;
+    border-radius: 20px;
+  
+}
+
+footer div h1{
+   
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding-bottom: 120px;
+   padding: 80px;
+     text-align: center;
+     box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+     font-size: 2.2rem;
+     font-family: 'font17', sans-serif;
+     font-weight: 500;
+     -webkit-transform: rotate(-4deg);
+     margin-bottom: 70px;
+   
+}
+
+
+ form input,textarea{
+   background-color: rgb(250, 250, 250);
+   color: rgb(255, 255, 255);
+}
+ article {
+    box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    margin: auto;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+
+
+article .headAR{
+    width: 100%;
+    margin: auto;
+    padding: 85px;
+    padding-bottom: 130px;
+    height: 100px;
+    text-align: center;
+    box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+    font-size: 2.2rem;
+    font-family: 'font17', sans-serif;
+    font-weight: 500;
+    -webkit-transform: rotate(-4deg);
+    margin-bottom: 50px;
+}
+
+ article .edu{
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    -webkit-transform: rotate(-4deg);
+    border: 2px solid black;
+    outline: double;
+    outline-offset: 2px;
+    border-radius: 20px;
+    margin-bottom: 300px;
+}
+
+ article .edu .edubox{
+    /* border: 2px solid rgb(0, 0, 0); */
+     box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.edu .edubox .leftE img{
+  height: 70px;
+   width: 70px;
+   border-radius: 10px;
+  margin: 10px ;
+}
+
+.edu .edubox div{
+  width: 100%;
+  display: flex;
+}
+
+.edu .edubox .leftE {
+  width: 10%;
+   flex-direction: column;
+}
+
+.edu .edubox .rightE {
+    padding-left: 20px;
+  width: 90%;
+  flex-direction: column;
+   
+}
+.edu .edubox .content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    -webkit-transform: rotate(-5deg);
+    border-radius: 10px;
+     box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(148, 147, 147, 0.847), 0 0 18px 0  rgb(139, 139, 139);
+    font-size: 1.3rem;
+    font-family: "font17", cursive;
+    /* font-family: "Caveat", cursive; */
+    word-spacing: 3px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+   
+   
+}
+.edu .edubox div h3 {
+    font-size: 2.5rem;
+    font-family: "font17", cursive;
+    word-spacing: 3px;
+    padding-bottom: 10px;
+}
+.edu .edubox div h6 {
+    font-size: 1.2rem;
+    font-family: "font17", cursive;
+    word-spacing: 3px;
+   
+}
+.edu .edubox div p,h4 {
+    font-size: 1.2rem;
+    font-family: "font3", cursive;
+    font-family: "Caveat", cursive;
+    word-spacing: 3px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+

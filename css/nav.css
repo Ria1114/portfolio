@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/Agustina.otf') format('opentype');
+
+}
+@font-face {
+  font-family: 'font2';
+  src: url('/fonts/Agustina-1.otf');
+}
+@font-face {
+  font-family: 'font3';
+  src: url('/fonts/Belguri.otf');
+}
+@font-face {
+  font-family: 'font4';
+  src: url('/fonts/Bellary.otf');
+}
+@font-face {
+  font-family: 'font5';
+  src: url('/fonts/Dellamor.otf');
+}
+@font-face {
+  font-family: 'font6';
+  src: url('/fonts/Dolphina.otf');
+}
+@font-face {
+  font-family: 'font7';
+  src: url('/fonts/HoperBegin.otf');
+}
+@font-face {
+  font-family: 'font8';
+  src: url('/fonts/EladornaGladiota-KVVKy.otf');
+}
+@font-face {
+  font-family: 'font9';
+  src: url('/fonts/Festigan.otf');
+}
+@font-face {
+  font-family: 'font10';
+  src: url('/fonts/Hanstelly-OGG1e.otf');
+}
+@font-face {
+  font-family: 'font11';
+  src: url('/fonts/Raistine-Wpp4G.otf');
+}
+@font-face {
+  font-family: 'font12';
+  src: url('/fonts/YanhirAmolesthic-BLL18.otf');
+}
+@font-face {
+  font-family: 'font13';
+  src: url('/fonts/Sun\ Beautiful.otf');
+}
+@font-face {
+  font-family: 'font14';
+  src: url('/fonts/Agustina-Signature.otf');
+}
+@font-face {
+  font-family: 'font15';
+  src: url('/fonts/BrettleySignatureRegular-RpEMo.ttf');
+}
+@font-face {
+  font-family: 'font16';
+  src: url('/fonts/Weddingday.ttf');
+}
+@font-face {
+  font-family: 'font17';
+  src: url('/fonts/DancingScript-Bold.ttf');
+}
+@font-face {
+  font-family: 'font18';
+  src: url('/fonts/DancingScript-Regular.ttf');
+}
+@font-face {
+  font-family: 'font19';
+  src: url('/fonts/LightStories-q229r.otf');
+}
+@font-face {
+  font-family: 'font20';
+  src: url('/fonts/Kastria-LVVz4.otf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+
+}
+body{
+  font-family:  sans-serif;
+}
+
+nav{
+  width: 100%;
+  
+    background-color: rgb(255, 255, 255);
+    min-height: 110px;
+    box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+    }
+     nav a.navbar-brand {
+        box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+        font-size: 2.1rem;
+        font-family: 'MyCustomFont', sans-serif;
+        font-weight: 500;
+        -webkit-transform: rotate(-4deg);
+    }
+
+
+
+    nav a.nav-link {
+        font-size: 2rem;
+        font-family: 'font3', sans-serif;
+        font-weight: 500;
+        color: #000000;
+        box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+        margin-left: 30px;
+    
+        -webkit-transform: rotate(-5deg);
+    
+    }
+    nav a.navbar-brand code {
+            font-size: 1.9rem;
+            font-weight: 500;
+            color: rgb(170, 170, 170);
+    
+    }
+
+
+    
+    /* .sticky + .content {
+      padding-top: 60px;
+    } */
+      /* ---------------  Media Query for Laptops and Desktops ----------------- */
+  @media (min-width: 200px) and (max-width: 1600px){
+  
+    nav{
+        min-height: 105px;
+    }
+        nav a.navbar-brand {
+    
+        font-size: 1.8rem;
+        font-family: 'MyCustomFont', sans-serif;
+        font-weight: 500;
+    
+    }
+
+    nav a.nav-link {
+        font-size: 1.7rem;
+        font-family: 'font3', sans-serif;
+        font-weight: 500;
+        color: #000;
+        margin-left: 30px;
+        padding: 10px;
+        margin: 10px;
+
+    }
+    nav a.navbar-brand code {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: rgb(170, 170, 170);
+
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px){
+
+nav{
+    min-height: 85px;
+}
+    nav a.navbar-brand {
+
+    font-size: 1.5rem;
+    font-family: 'MyCustomFont', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav a.nav-link {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    padding: 5px;
+    margin: 10px;
+
+}
+nav a.navbar-brand code {
+        font-size: 1.2rem;
+        font-weight: 200;
+
+}
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 300px) and (max-width: 992px){
+
+    nav{
+        min-height: 56px;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav a.navbar-brand {
+
+        font-size: 1.5rem;
+        font-family: 'MyCustomFont', sans-serif;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+        box-shadow:  none;
+        -webkit-transform: none;
+
+    }
+
+    nav a.nav-link {
+        font-size: 1.2rem;
+        padding: 5px;
+        margin: 5px;
+        box-shadow:  none; 
+        -webkit-transform: none;
+
+    }
+
+    nav a.navbar-brand code {
+        font-size: 1.2rem;
+        font-weight: 200;
+
+    }
+ }

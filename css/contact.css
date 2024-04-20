@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/Agustina.otf') format('opentype');
+  
+  }
+  @font-face {
+    font-family: 'font2';
+    src: url('/fonts/Agustina-1.otf');
+  }
+  @font-face {
+    font-family: 'font3';
+    src: url('/fonts/Belguri.otf');
+  }
+  @font-face {
+    font-family: 'font4';
+    src: url('/fonts/Bellary.otf');
+  }
+  @font-face {
+    font-family: 'font5';
+    src: url('/fonts/Dellamor.otf');
+  }
+  @font-face {
+    font-family: 'font6';
+    src: url('/fonts/Dolphina.otf');
+  }
+  @font-face {
+    font-family: 'font7';
+    src: url('/fonts/HoperBegin.otf');
+  }
+  @font-face {
+    font-family: 'font8';
+    src: url('/fonts/EladornaGladiota-KVVKy.otf');
+  }
+  @font-face {
+    font-family: 'font9';
+    src: url('/fonts/Festigan.otf');
+  }
+  @font-face {
+    font-family: 'font10';
+    src: url('/fonts/Hanstelly-OGG1e.otf');
+  }
+  @font-face {
+    font-family: 'font11';
+    src: url('/fonts/Raistine-Wpp4G.otf');
+  }
+  @font-face {
+    font-family: 'font12';
+    src: url('/fonts/YanhirAmolesthic-BLL18.otf');
+  }
+  @font-face {
+    font-family: 'font13';
+    src: url('/fonts/Sun\ Beautiful.otf');
+  }
+  @font-face {
+    font-family: 'font14';
+    src: url('/fonts/Agustina-Signature.otf');
+  }
+  @font-face {
+    font-family: 'font15';
+    src: url('/fonts/BrettleySignatureRegular-RpEMo.ttf');
+  }
+  @font-face {
+    font-family: 'font16';
+    src: url('/fonts/Weddingday.ttf');
+  }
+  @font-face {
+    font-family: 'font17';
+    src: url('/fonts/DancingScript-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'font18';
+    src: url('/fonts/DancingScript-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'font19';
+    src: url('/fonts/LightStories-q229r.otf');
+  }
+  @font-face {
+    font-family: 'font20';
+    src: url('/fonts/Kastria-LVVz4.otf');
+  }
+
+  
+    
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+body{
+    font-family:  sans-serif;
+}
+
+
+
+  address{
+    width: 100%;
+    color: #000;
+   
+    padding-top: 60px;
+    padding-bottom: 170px;
+}
+
+address h1{
+ 
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding-bottom: 120px;
+   padding: 60px;
+     text-align: center;
+     box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+     font-size: 2.8rem;
+     font-family: 'font17', sans-serif;
+     font-weight: 500;
+     -webkit-transform: rotate(-4deg);
+     margin-bottom: 40px;
+   
+}
+
+address .outer {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    -webkit-transform: rotate(-4deg);
+    outline: double;
+    outline-offset: 2px;
+    border-radius: 20px;
+}
+address .outer .contact{
+ 
+    margin: auto;
+    box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+   
+    padding-bottom: 20px;
+     border-radius: 15px;
+}
+address .outer .contact .box{
+      display: flex;
+      font-size: 1rem;
+      font-weight: bolder;
+      font-family: "font17", cursive;
+ 
+}
+address .outer .contact .lab{
+  font-size: 2rem;
+  font-family: "font3", cursive;
+     margin-top: 10px;
+     padding-left: 20px;
+ 
+}
+address .outer .contact .labB{
+   padding-left: 20px;
+ 
+}
+address .outer .contact .lab h2{
+    font-size: 2.3rem;
+    color: #4a4a4a;
+    font-family: "font3", cursive;
+ 
+}
+address .outer .contact .lab h5{
+  padding-top: 20px;
+    font-size: 1.3rem;
+    color: #727272;
+    padding-bottom: 10px;
+ 
+}
+address .outer .contact .lab{
+
+     margin-bottom: 10px;
+ 
+}
+
+address .outer .contact .box .boxL{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: rgb(77, 77, 77);
+    margin: 10px;
+}
+address .outer .contact .box .boxL i{
+    font-size: 1rem;
+    padding: 19px;
+
+}
+address .outer .contact .box .boxR{
+    font-size: 1rem;
+     /* flex-direction: column; */
+     color: #4c73d7;
+    width: 40%;
+    margin: auto;
+    margin-left: 10px;
+     
+}
+address .outer .contact .box .boxR p{
+  font-size: 1.2rem;
+    color: #5c5c5c;
+   margin: 0;
+ 
+}
+
+footer{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  
+    padding: 0;
+}
+
+
+footer .rare p {
+  font-size: 1.5rem;
+  font-family: "font3", cursive;
+      padding: 30px;
+      padding-bottom: 0;
+     text-align: center;
+     margin-bottom: 0;
+}
+
+footer .rare a{
+    color: rgb(0, 0, 0);
+
+}
+
+footer .rare div li a{
+     font-size: 3rem;
+     padding: 30px;
+
+}
+
+
+@media (min-width: 400px) and (max-width: 1600px){
+  address{
+    padding-top: 40px;
+    padding-bottom: 130px;
+}
+
+address h1{
+ 
+     padding-bottom: 80px;
+     padding: 40px;
+     font-size: 2rem;
+     -webkit-transform: rotate(-4deg);
+     margin-bottom: 40px;
+   
+}
+
+
+  
+
+}
+
+@media (min-width: 51px) and (max-width: 750px){
+  
+  address{
+    width: 100%;
+    color: #000;
+   
+    padding-top: 10px;
+    padding-bottom: 170px;
+}
+
+address h1{
+ 
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding-bottom: 60px;
+   /* padding: 60px; */
+     text-align: center;
+     box-shadow: none;
+     font-size: 1.5rem;
+     -webkit-transform: none;
+     margin-bottom: 32px;
+   
+}
+address .outer {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    -webkit-transform: rotate(-2deg);
+    outline: double;
+    outline-offset: 2px;
+    border-radius: 20px;
+}
+address .outer .contact{
+ 
+    margin: auto;
+    box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+   
+    padding-bottom: 20px;
+     border-radius: 15px;
+}
+address .outer .contact .box{
+      display: flex;
+      font-size: 1rem;
+      font-weight: bolder;
+      font-family: "font17", cursive;
+ 
+}
+address .outer .contact .lab{
+  font-size: 2rem;
+  font-family: "font3", cursive;
+     margin-top: 10px;
+     padding-left: 20px;
+ 
+}
+address .outer .contact .labB{
+   padding-left: 20px;
+ 
+}
+address .outer .contact .lab h2{
+    font-size: 2.3rem;
+    color: #4a4a4a;
+    font-family: "font3", cursive;
+ 
+}
+address .outer .contact .lab h5{
+  padding-top: 20px;
+    font-size: 1.3rem;
+    color: #727272;
+    padding-bottom: 10px;
+ 
+}
+footer .rare div li a{
+  font-size: 2rem;
+  padding: 20px;
+
+}
+footer .rare p {
+  font-size: 1.3rem;
+  font-family: "font3", cursive;
+      padding: 10px;
+
+}
+}
+
+@media (min-width: 1px) and (max-width: 550px){
+  
+      address{
+        width: 100%;
+        color: #000;
+      
+        /* padding-top: 10px; */
+        padding-bottom: 100px;
+    }
+
+    address h1{
+    
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding-bottom: 40px;
+      /* padding: 60px; */
+        text-align: center;
+        box-shadow: none;
+        font-size: 1.5rem;
+        -webkit-transform: none;
+        margin-bottom: 32px;
+      
+    }
+    address .outer {
+        width: 96%;
+        margin: auto;
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        -webkit-transform: none;
+        outline: double;
+        outline-offset: 2px;
+    }
+    address .outer .contact{
+    
+        margin: auto;
+        box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+      
+        padding-bottom: 20px;
+        border-radius: 15px;
+    }
+    address .outer .contact .box{
+          display: flex;
+          font-size: 1rem;
+          font-weight: bolder;
+          font-family: "font17", cursive;
+    
+    }
+
+    address .outer .contact .labB{
+      padding-left: 10px;
+    
+    }
+    address .outer .contact .lab h2{
+        font-size: 2.3rem;
+        color: #4a4a4a;
+        font-family: "font3", cursive;
+    
+    }
+    address .outer .contact .lab h5{
+      padding-top: 20px;
+        font-size: 1.3rem;
+        color: #727272;
+        padding-bottom: 10px;
+    
+    }
+    address .outer .contact .box .boxR{
+      width: 80%;
+
+    }
+    footer .rare div li a{
+      font-size: 1.4rem;
+      padding: 10px;
+
+    }
+    footer .rare p {
+      font-size: 1rem;
+          padding: 7px;
+
+    }
+  }

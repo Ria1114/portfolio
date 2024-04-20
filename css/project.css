@@ -1,0 +1,446 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/fonts/Agustina.otf') format('opentype');
+  
+  }
+  @font-face {
+    font-family: 'font2';
+    src: url('/fonts/Agustina-1.otf');
+  }
+  @font-face {
+    font-family: 'font3';
+    src: url('/fonts/Belguri.otf');
+  }
+  @font-face {
+    font-family: 'font4';
+    src: url('/fonts/Bellary.otf');
+  }
+  @font-face {
+    font-family: 'font5';
+    src: url('/fonts/Dellamor.otf');
+  }
+  @font-face {
+    font-family: 'font6';
+    src: url('/fonts/Dolphina.otf');
+  }
+  @font-face {
+    font-family: 'font7';
+    src: url('/fonts/HoperBegin.otf');
+  }
+  @font-face {
+    font-family: 'font8';
+    src: url('/fonts/EladornaGladiota-KVVKy.otf');
+  }
+  @font-face {
+    font-family: 'font9';
+    src: url('/fonts/Festigan.otf');
+  }
+  @font-face {
+    font-family: 'font10';
+    src: url('/fonts/Hanstelly-OGG1e.otf');
+  }
+  @font-face {
+    font-family: 'font11';
+    src: url('/fonts/Raistine-Wpp4G.otf');
+  }
+  @font-face {
+    font-family: 'font12';
+    src: url('/fonts/YanhirAmolesthic-BLL18.otf');
+  }
+  @font-face {
+    font-family: 'font13';
+    src: url('/fonts/Sun\ Beautiful.otf');
+  }
+  @font-face {
+    font-family: 'font14';
+    src: url('/fonts/Agustina-Signature.otf');
+  }
+  @font-face {
+    font-family: 'font15';
+    src: url('/fonts/BrettleySignatureRegular-RpEMo.ttf');
+  }
+  @font-face {
+    font-family: 'font16';
+    src: url('/fonts/Weddingday.ttf');
+  }
+  @font-face {
+    font-family: 'font17';
+    src: url('/fonts/DancingScript-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'font18';
+    src: url('/fonts/DancingScript-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'font19';
+    src: url('/fonts/LightStories-q229r.otf');
+  }
+  @font-face {
+    font-family: 'font20';
+    src: url('/fonts/Kastria-LVVz4.otf');
+  }
+
+
+
+  *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+  }
+      
+  body{
+        font-family:  sans-serif;
+        box-sizing: border-box;
+  }
+  .shadow1{
+        box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+  }
+
+
+    section{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        padding-top: 60px;
+        padding-bottom: 230px;
+        box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+    
+      
+    }
+    section .white{
+          width: 65%;
+          margin: auto;
+          -webkit-transform: rotate(-5deg);
+          
+         
+    }
+
+
+    section .pro h1{
+          color: rgb(0, 0, 0);
+          font-size: 2.5rem;
+          text-align: center;
+          margin-bottom: 40px;
+          font-family: 'font17', sans-serif;
+          padding: 60px 50px 60px 50px;
+          -webkit-transform: rotate(-5deg);
+          box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+        
+    }
+
+section .white div.row{
+          display: flex;
+          width: 100%;
+          padding: 20px;
+          background-color: rgb(255, 255, 255);
+          border: 2px solid black;
+          border-radius: 15px;
+          margin: auto;
+          outline: double;
+          outline-offset: 2px;
+          border-radius: 20px;
+          gap: 20px;
+          flex-wrap: wrap;
+     
+}
+
+ section .white div.row div.col{
+        align-items: center;
+        border-radius: 20px 30px 20px 30px;
+        width: 350px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 30px;
+        box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+
+}
+
+section .white div.row div.col .remove .card{
+        padding-bottom: 8px;
+        border-radius: 8px;
+        
+}
+section .white div.row div.col .remove .card .card-body{
+      margin-top: 15px;
+      min-height: 210px;
+      font-size: 1rem;
+      font-family: "font17", cursive;
+      font-weight: bold;
+      word-spacing: 3px;
+      padding: 24px;
+      padding-top: 0;
+}
+section .white div.row div.col .remove  .card img{
+      width: 100%;
+      padding: 20px;
+      border-radius: 30px;
+}
+
+section .white div.row div.col .remove .card .card-body .btn1{
+    display: flex;
+    width: 250px;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+section .white div.row div.col .remove .card .card-body button{
+
+    width: 115px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+section .white div.row div.col .remove .card .card-body button a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+section .white div.row div.col .remove .card .card-body button:hover {
+  background-color: rgb(51, 49, 49);
+
+}
+
+section .white div.row div.col .remove .card .card-body button a:hover {
+  color: rgb(255, 255, 255);
+
+}
+
+@media (min-width: 500px) and (max-width: 1600px){
+
+  section{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+  
+}
+
+section .white{
+     width: 70%;
+     margin: auto;
+    -webkit-transform: rotate(-3deg);
+     
+}
+
+
+section .pro h1{
+      color: rgb(0, 0, 0);
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: 'font17', sans-serif;
+      padding: 45px 50px 45px 50px;
+      -webkit-transform: rotate(-3deg);
+      box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+    
+}
+
+section .white div.row{
+      display: flex;
+      width: 100%;
+      padding: 4px;
+      background-color: rgb(255, 255, 255);
+      border: 2px solid black;
+      border-radius: 15px;
+      margin: auto;
+      outline: double;
+      outline-offset: 2px;
+      border-radius: 20px;
+      gap: 20px;
+      flex-wrap: wrap;
+ 
+}
+
+section .white div.row div.col{
+      align-items: center;
+      border-radius: 20px 30px 20px 30px;
+      width: 30%;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      box-shadow:  0 0 18px 0  rgba(181, 181, 181, 0.148),   0 0 18px 0  rgba(181, 181, 181, 0.474),  0 0 18px 0  rgba(181, 181, 181, 0.847), 0 0 18px 0  rgb(203, 202, 202);
+
+}
+
+section .white div.row div.col .remove .card{
+    padding-bottom: 8px;
+    border-radius: 8px;
+    
+}
+section .white div.row div.col .remove .card .card-body{
+    margin-top: 15px;
+    min-height: 180px;
+    font-size: 1rem;
+    font-family: "font17", cursive;
+    font-weight: bold;
+    word-spacing: 3px;
+    padding: 19px;
+    padding-top: 0;
+}
+section .white div.row div.col .remove  .card img{
+    width: 100%;
+    padding: 14px;
+    border-radius: 20px;
+}
+section .white div.row div.col .remove .card .card-body .btn1{
+    display: flex;
+    width: 220px;
+    padding: 5px;
+    gap: 10px;
+
+}
+
+section .white div.row div.col .remove .card .card-body button{
+
+    width: 115px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: auto;
+
+}
+section .white div.row div.col .remove .card .card-body button:hover {
+    background-color: rgb(51, 49, 49);
+    color: rgb(255, 255, 255);
+
+}
+
+}
+
+@media (min-width: 500px) and (max-width: 750px){
+  section{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding-top: 4px;
+    padding-bottom: 30px;
+    box-shadow: none;
+  
+}
+section .white{
+     width: 75%;
+     margin: auto;
+     -webkit-transform: rotate(-1.1deg);
+      /* -webkit-transform: none; */
+      
+     
+}
+section .pro h1{
+    font-size: 1.8rem;
+    padding: 60px 50px 60px 50px;
+    -webkit-transform: none;
+    box-shadow: none;
+
+}
+section .white div.row{
+    padding: 2px;
+    border-radius: 5px;
+    outline-offset: 2px;
+    border-radius: 10px;
+    gap: 0px;
+
+}
+section .white div.row div.col{
+     align-items: center;
+      border-radius: 20px 10px 20px 30px;
+      width: 380px;
+      margin: auto;
+      margin-bottom: 10px;
+      margin-top: 30px;
+      box-shadow:  0 0 8px 0  rgba(181, 181, 181, 0.148),   0 0 8px 0  rgba(181, 181, 181, 0.474),  0 0 8px 0  rgba(181, 181, 181, 0.847), 0 0 8px 0  rgb(203, 202, 202);
+
+}
+
+section .white div.row div.col .remove .card .card-body{
+      margin-top: 15px;
+      font-size: 1rem;
+      font-family: "font17", cursive;
+      font-weight: bold;
+      word-spacing: 3px;
+      padding: 24px;
+      padding-top: 0;
+}
+
+
+}
+@media (min-width: 1px) and (max-width: 550px){
+
+  section .white div.row div.col .remove .card .card-body button{
+     width: 95px;
+  }
+
+
+section .white div.row div.col .remove .card .card-body .btn1{
+    display: flex;
+    width: 210px;
+    padding: 10px;
+    gap: 10px;
+
+}
+  section{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    box-shadow: none;
+  
+}
+section .white{
+     width: 95%;
+     margin: auto;
+     -webkit-transform: none;
+    -webkit-transform: none;
+      
+     
+}
+section .white div.row{
+    padding: 2px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    outline: double;
+    outline-offset: 2px;
+    border-radius: 10px;
+    gap: 2px;
+    flex-wrap: wrap;
+
+}
+section .pro h1{
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+    padding: 3px 10px 20px 30px;
+    -webkit-transform: none;
+    box-shadow: none;
+
+}
+section .white div.row div.col .remove .card .card-body{
+      margin-top: 5px;
+      min-height: 230px;
+      padding: 24px;
+      padding-top: 0;
+}
+section .white div.row div.col {
+     width: 93%;
+     margin: 10px;
+
+}
+section .white div.row div.col .remove  .card img{
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+}
